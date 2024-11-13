@@ -58,7 +58,7 @@ class StatedChildPage extends StatelessWidget {
     return Container(
       width: double.infinity,
       height: 900.r,
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         shape: BoxShape.circle,
         color: Colors.black,
       ),

@@ -1,4 +1,4 @@
-import 'package:fclubs/ui/started/started_child_page.dart';
+import 'package:fclubs/ui/sign_in/sign_in_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: const StatedChildPage(),
+      child: const SignInPage(),
     );
   }
 }
