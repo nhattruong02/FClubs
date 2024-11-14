@@ -5,12 +5,12 @@ import 'package:google_fonts/google_fonts.dart';
 import '../colors.dart';
 
 class CommonTitleAndTextField {
-  static Widget titleAndTextField({
-    required String title,
-    TextEditingController? controller,
-    required String hintText,
-    required IconData preIcon,
-  }) {
+  static Widget titleAndTextField(
+      {required String title,
+      TextEditingController? controller,
+      required String hintText,
+      required IconData preIcon,
+      bool? isPassWord}) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -22,7 +22,8 @@ class CommonTitleAndTextField {
               fontSize: 50.sp),
         ),
         20.verticalSpace,
-        TextField(
+        TextFormField(
+          obscureText: isPassWord ?? false,
           controller: controller,
           style: TextStyle(
               color: Colors.black, // Set the color of the input text
