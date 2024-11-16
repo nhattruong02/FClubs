@@ -1,4 +1,4 @@
-import 'package:fclubs/ui/register/register_page.dart';
+import 'package:fclubs/ui/main/main_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: const RegisterPage(),
+      child: const MainPage(),
     );
   }
 }

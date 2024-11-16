@@ -20,7 +20,7 @@ class RegisterPage extends StatelessWidget {
               CommonHeader.header(
                   textTitle: "Create A New Account",
                   textContent: "Register & Get The Best Air Travel Experience"),
-              Expanded(child: const RegisterForm()),
+              const Expanded(child: RegisterForm()),
             ],
           )),
     );
