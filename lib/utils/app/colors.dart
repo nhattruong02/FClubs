@@ -10,5 +10,5 @@ class AppColors {
   static const Color textColorRegister = Color(0xFF477FF1);
   static const Color textField = Color(0xFFCDCDCD);
   static const Color contentTextField = Color(0xFF414141);
-  static const Color backGroundColor = Color(0xFFEDEDED);
+  static const Color backGroundColor = Color(0xFFF7F7FC);
 }

@@ -113,8 +113,8 @@ class _ContactPageState extends State<ContactPage> {
           },
           separatorBuilder: (context, index) {
             return Divider(
-              indent: 30,
-              endIndent: 30,
+              indent: 5,
+              endIndent: 5,
               height: 1,
               color: Colors.grey[300],
             );
